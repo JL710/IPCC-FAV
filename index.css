@@ -1,1 +1,44 @@
+body {
+    margin: 0;
+}
 
+.font1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testanimation1 {
+    padding: 0.5em;
+    background:aqua;
+    transition: 1s;
+}
+
+.testanimation1:hover {
+    background: aquamarine;
+    border-radius: 1em;
+}
+
+.testanimation2 {
+    padding: 0.5em;
+    background:aqua;
+    transition: 1s ease-in-out;
+}
+
+.testanimation2:hover {
+    background: aquamarine;
+    border-radius: 1em;
+}
+
+.testanimation3 {
+    padding: 0.5em;
+    background:aqua;
+    animation: animation_1 1s ease-in-out infinite alternate;
+}
+@keyframes animation_1 {
+    0% {
+        background:aqua;
+    }
+    100% {
+        background: aquamarine;
+        border-radius: 1em;
+    }
+}
