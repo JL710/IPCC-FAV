@@ -7,6 +7,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bg1 {background: #D9ED92;}
+.bg2 {background: #B5E48C;}
+.bg3 {background: #99D98C;}
+.bg4 {background: #76C893;}
+.bg5 {background: #52B69A;}
+.bg6 {background: #34A0A4;}
+.bg7 {background: #168AAD;}
+.bg8 {background: #1A759F;}
+.bg9 {background: #1E6091;}
+.bg10 {background: #184E77;}
+
 .testanimation1 {
     padding: 0.5em;
     background:aqua;
