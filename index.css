@@ -1,6 +1,15 @@
 body {
     margin: 0;
     background: #B5E48C;
+    padding: 1em;
+}
+
+#maincontainer {
+    margin: auto; 
+    background: #99D98C; 
+    border-radius: 1em; 
+    padding: 1em; 
+    max-width: 70em;
 }
 
 .font1 {
