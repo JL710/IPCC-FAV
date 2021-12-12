@@ -28,6 +28,31 @@ body {
     color: #313030;
 }
 
+.img1 {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flexbody1 {
+    display: flex;
+}
+
+@media (max-width: 40em) {
+    .img1 {
+        width: 100%;
+        height: min-content;
+        object-fit: contain;
+    }
+
+    .flexbody1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
 .bg1 {background: #D9ED92;}
 .bg2 {background: #B5E48C;}
 .bg3 {background: #99D98C;}
