@@ -52,8 +52,6 @@ body {
 @media (max-width: 40em) {
     .img1 {
         max-width: 100%;
-        height: min-content;
-        object-fit: contain;
     }
 
     .flexbody1 {
