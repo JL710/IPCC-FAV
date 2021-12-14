@@ -24,6 +24,10 @@ body {
     border-color: black;
 }
 
+.margin1 {
+    margin: 0.3em;
+}
+
 .link1 {
     color: #313030;
 }
@@ -43,6 +47,7 @@ body {
     padding: 0.5em;
     border-radius: 1em;
 }
+
 
 @media (max-width: 40em) {
     .img1 {
