@@ -33,7 +33,7 @@ body {
 }
 
 .img1 {
-    width: 50%;
+    max-width: 30%;
     object-fit: cover;
     border-radius: 1em;
     margin: 0.3em;
@@ -51,7 +51,7 @@ body {
 
 @media (max-width: 40em) {
     .img1 {
-        width: 100%;
+        max-width: 100%;
         height: min-content;
         object-fit: contain;
     }
