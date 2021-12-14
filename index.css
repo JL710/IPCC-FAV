@@ -33,10 +33,14 @@ body {
 }
 
 .img1 {
-    max-width: 30%;
+    max-width: calc(100% - 0.6em);
     object-fit: cover;
     border-radius: 1em;
-    margin: 0.3em;
+}
+
+.img_container {
+    max-width: 30%;
+    padding: 0.3em;
 }
 
 .flexbody1 {
@@ -52,6 +56,11 @@ body {
 @media (max-width: 40em) {
     .img1 {
         max-width: calc(100% - 0.4em);
+    }
+
+    .img_container {
+        max-width: 100%;
+        padding: 0.3em;
     }
 
     .flexbody1 {
